@@ -1,0 +1,67 @@
+[05-Jan-2026 07:49:36 UTC] PHP Warning:  Undefined property: stdClass::$installation in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/plugins/advanced-custom-fields-pro/includes/Updater/Updater.php on line 546
+[09-Jan-2026 02:17:36 UTC] PHP Warning:  Undefined property: stdClass::$installation in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/plugins/advanced-custom-fields-pro/includes/Updater/Updater.php on line 546
+[09-Jan-2026 13:56:51 UTC] PHP Warning:  Undefined property: stdClass::$installation in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/plugins/advanced-custom-fields-pro/includes/Updater/Updater.php on line 546
+[09-Jan-2026 14:01:02 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:03 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:03 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:04 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:04 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:05 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:12 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:13 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:14 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[09-Jan-2026 14:01:14 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 11:11:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 11:11:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 106
+[12-Jan-2026 11:11:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 107
+[12-Jan-2026 11:11:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 11:11:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 106
+[12-Jan-2026 11:11:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 107
+[12-Jan-2026 12:34:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 12:34:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 12:34:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 12:34:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 12:34:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 12:34:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 12:34:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 12:34:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 12:34:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 12:45:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 12:45:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 12:45:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 13:16:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 13:16:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 13:16:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 13:16:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 13:16:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 13:16:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 13:53:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 103
+[12-Jan-2026 13:53:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[12-Jan-2026 13:53:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[12-Jan-2026 14:02:11 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:12 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:13 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:13 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:14 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:15 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:25 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:26 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:27 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[12-Jan-2026 14:02:27 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 11:49:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[13-Jan-2026 11:49:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[13-Jan-2026 11:49:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 106
+[13-Jan-2026 12:36:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[13-Jan-2026 12:36:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[13-Jan-2026 12:36:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 106
+[13-Jan-2026 12:44:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 104
+[13-Jan-2026 12:44:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 105
+[13-Jan-2026 12:44:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/themes/elvira/inc/custom_functions.php on line 106
+[13-Jan-2026 13:11:33 UTC] PHP Warning:  Undefined property: stdClass::$installation in /home/hguusaov/elvirasite.elvirainfotech.live/wp-content/plugins/advanced-custom-fields-pro/includes/Updater/Updater.php on line 546
+[13-Jan-2026 13:14:40 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:52 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:52 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:53 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:54 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:54 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
+[13-Jan-2026 13:14:55 UTC] ERROR UNSERIALIZE DATA: null RESET TO EMPTY ARRAY
