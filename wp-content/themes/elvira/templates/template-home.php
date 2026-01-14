@@ -409,7 +409,7 @@ get_header();
                         $data_delay = '';
                   }
                   ?>
-                <div class="col-lg-4" <?php echo $data_aos ." ".$data_delay;?> > 
+                <div class="col-lg-3" <?php echo $data_aos ." ".$data_delay;?> > 
                   <div class="inner_wrapper">
                     <h3 class="num_val"><?php echo $i; ?></h3>
                     <div class="breif">
@@ -557,8 +557,8 @@ get_header();
 
 
 
-      <section class="what_makes_us">
-        <div id="tsparticles"></div>
+      <!-- <section class="what_makes_us">
+         <div id="tsparticles"></div> 
         <div class="container">
           <div class="inner_wrapper" data-aos="zoom-in">
             <?php if($title){ ?>
@@ -613,7 +613,7 @@ get_header();
             
           </div>
         </div>
-      </section>
+      </section> -->
 
       <?php  
       
@@ -638,101 +638,10 @@ get_header();
               </p>
               <?php } ?>
              
-              <div class="tab_btn_wrapper" data-aos='fade-left'>
-                <ul>
-                  <li class="active" data-filter="*">All</li>
-                 <?php
-                  $terms = get_terms([
-                      'taxonomy'   => 'works-category',
-                      'hide_empty' => true, // set false if you want empty terms too
-                  ]);
-
-                  if ( ! empty($terms) && ! is_wp_error($terms) ) :
-                      foreach ( $terms as $term ) :
-                  ?>
-                          <li data-filter="<?php echo esc_attr($term->slug); ?>">
-                              <?php echo esc_html($term->name); ?>
-                          </li>
-                  <?php
-                      endforeach;
-                  endif;
-                  ?>
-                </ul>
-              </div>
+              
             </div>
           </div>
-          <div class="tab_content_wrapper" data-aos='fade-up'>
-            <div class="tab_content">
-
-              <?php
-              $terms = get_terms([
-                  'taxonomy'   => 'works-category',
-                  'hide_empty' => true,
-              ]);
-
-              if ( ! empty($terms) && ! is_wp_error($terms) ) :
-
-                  foreach ( $terms as $term ) :
-
-                      $work_query = new WP_Query([
-                          'post_type'      => 'work',
-                          'posts_per_page' => 5,
-                          'orderby' => 'date',
-                          'order' => 'DESC',
-                          'tax_query'      => [
-                              [
-                                  'taxonomy' => 'works-category',
-                                  'field'    => 'slug',
-                                  'terms'    => $term->slug,
-                              ],
-                          ],
-                      ]);
-
-                      if ( $work_query->have_posts() ) :
-                          while ( $work_query->have_posts() ) :
-                              $work_query->the_post();
-                          ?>
-
-                          <div class="grid-item" data-category="<?php echo esc_attr($term->slug); ?>">
-                              <div class="inner_wrapper">
-
-                                  <?php if ( has_post_thumbnail() ) : ?>
-                                      <!-- <img 
-                                          src="<?php //echo esc_url( get_the_post_thumbnail_url(get_the_ID(), 'large') ); ?>" 
-                                          alt="<?php //the_title_attribute(); ?>" 
-                                           height="<?php // echo $image['height'];?>"
-                                          width="<?php //echo $image['width'];?>"
-                                          loading="lazy"
-                                      > -->
-
-                                      <?php the_post_thumbnail(); ?>
-                                  <?php endif; ?>
-
-                                  <div class="inner_cont">
-                                      <h3 class="title"><?php the_title(); ?></h3>
-
-                                      <?php if ( has_excerpt() ) : ?>
-                                          <p><?php echo esc_html( get_the_excerpt() ); ?></p>
-                                      <?php endif; ?>
-
-                                      <div class="link_wrapper">
-                                          <a href="<?php the_permalink(); ?>">View Project</a>
-                                      </div>
-                                  </div>
-
-                              </div>
-                          </div>
-
-                        <?php
-                          endwhile;
-                          wp_reset_postdata();
-                      endif;
-
-                  endforeach;
-              endif;
-              ?>
-            </div>
-        </div>
+          
         </div>
       </section>
 
@@ -855,8 +764,7 @@ get_header();
             $galleryTitle = get_field('gallery_title_hg');
         
         ?>
-
-          <section class="our_gallery">
+          <!-- <section class="our_gallery">
             <div class="container">
               <?php if($galleryTitle){ ?>
                 <div class="head text-center mb-md-4 mb-3">
@@ -889,9 +797,49 @@ get_header();
                 
               </div>
             </div>
-          </section>
-      <?php wp_reset_query(); } 
-    
+          </section> -->
+      <?php wp_reset_query(); } ?>
+
+
+
+    <section class="brands_works_slider">
+       <?php
+			$title = get_field('brand_title');
+			$gallery = get_field('brands_gallery');
+
+			if ($gallery):
+			?>
+
+				<div class="brands_works">
+				  <div class="container-fluid">
+
+					<?php if ($title): ?>
+					  <div class="head text-center">
+						<h2 class="sec_hdng line_bottom center">
+						  <?php echo ($title); ?>
+						</h2>
+					  </div>
+					<?php endif; ?>
+
+					<div class="marquee_wrapper">
+					  <?php foreach ($gallery as $image): ?>
+						<div class="img_wrapper">
+						  <img src="<?php echo esc_url($image['url']); ?>"
+							   alt="<?php echo esc_attr($image['alt']); ?>"
+							   width="<?php echo esc_attr( $image['width'] ); ?>" 
+							   height="<?php echo esc_attr( $image['height'] ); ?>"
+							  >
+						</div>
+					  <?php endforeach; ?>
+					</div>
+				  </div>
+			</div>
+	<?php endif; ?>
+    </section>
+
+
+      
+  <?php 
         get_template_part('/template-parts/footer-form');
 
       ?>

@@ -33,6 +33,7 @@ get_header();
 $title       = get_field('happy_client_title');
 $image       = get_field('happy_client_image');
 $description = get_field('client_description');
+$description_bottom = get_field('client_description_bottom');
 ?>
 <section class="happy_clients abt_page">
   <div class="container">
@@ -59,7 +60,7 @@ $description = get_field('client_description');
       <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
         <div class="text_wrapper">
           <?php if ($description): ?>
-            <p><?php echo ($description); ?></p>
+            <?php echo ($description); ?>
           <?php endif; ?>
         </div>
       </div>
@@ -89,6 +90,13 @@ $description = get_field('client_description');
 
         </div>
       </div>
+        <?php if ($description_bottom): ?>
+          <div class="col-lg-12" data-aos="fade-right" data-aos-delay="100">
+            <div class="text_wrapper">
+                <?php echo ($description_bottom); ?>
+            </div>
+          </div>
+        <?php endif; ?>
 
     </div>
   </div>
@@ -332,7 +340,6 @@ if ($gallery):
 
     <div class="marquee_wrapper">
       <?php
-      for ($i = 0; $i < 3; $i++):
         foreach ($gallery as $image):
       ?>
         <div class="img_wrapper">
@@ -344,7 +351,6 @@ if ($gallery):
         </div>
       <?php
         endforeach;
-      endfor;
       ?>
     </div>
   </div>

@@ -62,7 +62,7 @@ get_header();
               </div>
             </div>
 
-
+        <div id="jobsContainer">
         <?php  while ($jobs_query->have_posts() ) :
                                       
                 $jobs_query->the_post();
@@ -108,10 +108,11 @@ get_header();
         </div>
 
         <?php endwhile; wp_reset_postdata(); ?>
-        
+     </div>
       </div>
     </section>'
-    <?php endif; ?>'
+    <?php endif; ?>
+    
     <!-- Rewards & Recognitions -->
     <section class="rr-section" data-aos="fade-up">
       <?php 
@@ -193,5 +194,35 @@ get_header();
 </div>
  <?php   get_template_part('/template-parts/footer-form'); ?>
 </main>
+
+<script>
+ 
+jQuery(document).ready(function($){
+
+    $('.careers-search-input').on('keyup', function(){
+
+        let keyword = $(this).val();
+
+        $.ajax({
+            url: '<?php echo admin_url('admin-ajax.php'); ?>',
+            type: 'POST',
+            data: {
+                action: 'filter_jobs',
+                search: keyword
+            },
+            beforeSend: function(){
+                $('#jobsContainer').addClass('loading');
+            },
+            success: function(response){
+                $('#jobsContainer').html(response).removeClass('loading');
+            }
+        });
+
+    });
+
+});
+</script>
+
+
  
 <?php get_footer(); ?>

@@ -168,9 +168,7 @@ get_header();  ?>
             </div>
         </section>
     <?php endif; ?>
-     
-        <?php get_template_part('/template-parts/development-path'); ?>
-
+    
       <?php get_template_part('/template-parts/footer-form'); ?>
 
     </main>

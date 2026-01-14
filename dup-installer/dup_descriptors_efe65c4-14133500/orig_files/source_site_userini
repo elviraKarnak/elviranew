@@ -1,0 +1,3 @@
+; Wordfence WAF
+auto_prepend_file = '/home/hguusaov/elvirasite.elvirainfotech.live/wordfence-waf.php'
+; END Wordfence WAF

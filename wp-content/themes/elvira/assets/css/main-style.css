@@ -503,12 +503,12 @@ main {
 }
 
 @media (min-width: 767.98px) {
-  .gallery_wrapper img {
+ /* .gallery_wrapper img {
     opacity: 0;
     transform: translateY(40px) scale(0.8) rotate(-10deg);
     transition: all 0.6s ease-out;
     margin: 10px;
-  }
+  }*/
 
   .section-active .gallery_wrapper img {
     opacity: 1;
@@ -2510,11 +2510,11 @@ header .primary_header .inner_wrapper .toggle_menu.active::after {
   transition: all 0.5s;
 }
 
-.bottom-to-top-animate,
+/*.bottom-to-top-animate,
 .left-to-right-animate,
 .right-to-left-animate {
   opacity: 0;
-}
+}*/
 /* animation css by nandita end */
 
 /* our works css start */

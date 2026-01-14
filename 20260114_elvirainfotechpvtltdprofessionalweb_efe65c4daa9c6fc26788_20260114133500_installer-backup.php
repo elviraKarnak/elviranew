@@ -3197,11 +3197,11 @@ namespace {
     use Duplicator\Installer\Bootstrap\BootstrapView;
     use Duplicator\Installer\Bootstrap\LogHandler;
     class InstallerBootstrapData {
-        const ARCHIVE_FILENAME       = '20260113_elvirainfotechpvtltdprofessionalweb_a61d3525d2d1b9907487_20260113131416_archive.zip';
-        const ARCHIVE_SIZE           = '153769315';
+        const ARCHIVE_FILENAME       = '20260114_elvirainfotechpvtltdprofessionalweb_efe65c4daa9c6fc26788_20260114133500_archive.zip';
+        const ARCHIVE_SIZE           = '154725109';
         const INSTALLER_DIR_NAME     = 'dup-installer';
-        const PACKAGE_HASH           = 'a61d352-13131416';
-        const SECONDARY_PACKAGE_HASH = 'c1d7b84-13131416';
+        const PACKAGE_HASH           = 'efe65c4-14133500';
+        const SECONDARY_PACKAGE_HASH = '92dd8b3-14133500';
         const VERSION                = '4.5.24';
     }
     BootstrapUtils::phpVersionCheck(BootstrapRunner::MINIMUM_PHP_VERSION);

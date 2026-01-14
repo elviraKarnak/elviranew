@@ -122,4 +122,16 @@ get_header();
    </main> 
     <?php get_template_part('/template-parts/footer-form'); ?>
 
+
+    <script>
+      jQuery(document).ready(function ($) {
+        var jobTitle = $('.career-job-title').text();
+
+          $(".selected_job_role input").val(jobTitle);
+          $(".selected_job_role").css("pointer-events", "none").css("opacity","0.6");
+          
+     
+      });
+    </script>
+
     <?php get_footer(); ?>

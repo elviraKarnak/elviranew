@@ -176,3 +176,60 @@ function filter_blog_cb() {
       }
 
 
+
+add_action('wp_ajax_filter_jobs', 'filter_jobs_callback');
+add_action('wp_ajax_nopriv_filter_jobs', 'filter_jobs_callback');
+
+function filter_jobs_callback() {
+
+    $search = sanitize_text_field($_POST['search'] ?? '');
+
+    $args = [
+        'post_type'      => 'job',
+        'posts_per_page' => -1,
+        'orderby'        => 'date',
+        'order'          => 'DESC',
+        's'              => $search,
+        'meta_query'     => [[
+            'key'     => 'job_availibilty',
+            'value'   => '1',
+            'compare' => '='
+        ]]
+    ];
+
+    $query = new WP_Query($args);
+
+    if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post();
+
+            $location   = get_field('location_jobs');
+            $experience = get_field('experience_jobs'); 
+            $vacancy    = get_field('vacancy_jobs');
+            $urgent     = get_field('job_urgent');
+            $available  = get_field('job_availibilty');
+        ?>
+
+        <div class="career-job-card">
+          <div class="row align-items-center gy-lg-0 gy-3">
+            <div class="col-lg-8 career-job-info">
+              <h4 class="career-job-title"><?php the_title(); ?></h4>
+              <ul class="career-job-meta">
+                <?php if($location): ?><li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/loc.svg"> <?php echo esc_html($location); ?></li><?php endif; ?>
+                <?php if($experience): ?><li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hand.svg"> <?php echo esc_html($experience); ?></li><?php endif; ?>
+                <?php if($vacancy): ?><li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/bag.svg"> <?php echo esc_html($vacancy); ?></li><?php endif; ?>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <?php if($urgent): ?><span class="career-job-urgent">Urgent</span><?php endif; ?>
+                <?php if($available): ?><a href="<?php the_permalink(); ?>" class="career-apply-btn primary_btn">Apply Now</a><?php endif; ?>
+            </div>
+          </div>
+        </div>
+
+    <?php endwhile;
+    else :
+        echo '<p class="no-jobs">No jobs found.</p>';
+    endif;
+
+    wp_die();
+}

@@ -1,0 +1,840 @@
+{
+    "CL_-=_-=": "Duplicator\\Installer\\Package\\ArchiveDescriptor",
+    "dup_type": "pro",
+    "created": "2026-01-14 13:35:00",
+    "version_dup": "4.5.24",
+    "version_wp": "6.9",
+    "version_db": "10.6.24",
+    "version_php": "8.2.29",
+    "version_os": "Linux",
+    "blogname": "Elvira Infotech PVT LTD | Professional Web Development Company",
+    "exportOnlyDB": false,
+    "secure_on": 0,
+    "secure_pass": "",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorSubsite",
+            "id": 1,
+            "domain": "elvirasite.elvirainfotech.live",
+            "path": "\/",
+            "blogname": "Elvira Infotech PVT LTD | Professional Web Development Company",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "CL_-=_-=": "stdClass",
+                    "ID": "1",
+                    "user_login": "admin@elvira",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/elvirasite.elvirainfotech.live",
+            "fullSiteUrl": "https:\/\/elvirasite.elvirainfotech.live",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 100,
+    "license_type": 11,
+    "dbInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBInfo",
+        "buildMode": "PHPCHUNKING",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB",
+            "MEMORY"
+        ],
+        "isTablesUpperCase": false,
+        "lowerCaseTableNames": 0,
+        "isNameUpperCase": false,
+        "name": "hguusaov_wp_elviranew2026",
+        "tablesBaseCount": 48,
+        "tablesFinalCount": 48,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 27536,
+        "tablesSizeOnDisk": 17924096,
+        "tablesList": {
+            "wp_commentmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_activity_logs": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "22",
+                "insertedRows": 25,
+                "size": 147456
+            },
+            "wp_duplicator_backups": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 3,
+                "size": 196608
+            },
+            "wp_duplicator_entities": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "8",
+                "insertedRows": 8,
+                "size": 163840
+            },
+            "wp_gf_draft_submissions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_gf_entry": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_gf_entry_meta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6",
+                "insertedRows": 6,
+                "size": 65536
+            },
+            "wp_gf_entry_notes": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_gf_form": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "3",
+                "insertedRows": 4,
+                "size": 16384
+            },
+            "wp_gf_form_meta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "3",
+                "insertedRows": 4,
+                "size": 16384
+            },
+            "wp_gf_form_revisions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gf_form_view": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6",
+                "insertedRows": 7,
+                "size": 49152
+            },
+            "wp_links": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "337",
+                "insertedRows": 342,
+                "size": 2195456
+            },
+            "wp_postmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "10542",
+                "insertedRows": 10842,
+                "size": 3555328
+            },
+            "wp_posts": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "797",
+                "insertedRows": 892,
+                "size": 1900544
+            },
+            "wp_termmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "15",
+                "insertedRows": 17,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "138",
+                "insertedRows": 145,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "16",
+                "insertedRows": 17,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "47",
+                "insertedRows": 47,
+                "size": 49152
+            },
+            "wp_users": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wfauditevents": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfblockediplog": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "wp_wfblocks7": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wfconfig": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "277",
+                "insertedRows": 280,
+                "size": 540672
+            },
+            "wp_wfcrawlers": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wffilechanges": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wffilemods": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6333",
+                "insertedRows": 7321,
+                "size": 4734976
+            },
+            "wp_wfhits": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "24",
+                "insertedRows": 24,
+                "size": 65536
+            },
+            "wp_wfhoover": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "197",
+                "insertedRows": 221,
+                "size": 65536
+            },
+            "wp_wfissues": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wfknownfilelist": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "7226",
+                "insertedRows": 7322,
+                "size": 2637824
+            },
+            "wp_wflivetraffichuman": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wflocs": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "8",
+                "insertedRows": 8,
+                "size": 16384
+            },
+            "wp_wflogins": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "19",
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_wfls_2fa_secrets": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfls_role_counts": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 0
+            },
+            "wp_wfls_settings": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "26",
+                "insertedRows": 30,
+                "size": 16384
+            },
+            "wp_wfnotifications": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfpendingissues": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wfreversecache": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "3",
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wp_wfsecurityevents": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfsnipcache": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wfstatus": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1477",
+                "insertedRows": 1485,
+                "size": 327680
+            },
+            "wp_wftrafficrates": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfwaffailures": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            }
+        },
+        "dbEngine": "MariaDB",
+        "version": "10.6.24",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPackageInfo",
+        "packageId": 8,
+        "packageName": "20260114_elvirainfotechpvtltdprofessionalweb",
+        "packageHash": "efe65c4-14133500",
+        "secondaryHash": "64553e3-14133500"
+    },
+    "fileInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorFileInfo",
+        "dirCount": 1303,
+        "fileCount": 8567,
+        "size": 154725109
+    },
+    "wpInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorWpInfo",
+        "version": "6.9",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/",
+        "targetPaths": [
+            "\/home\/hguusaov\/elvirasite.elvirainfotech.live"
+        ],
+        "adminUsers": [
+            {
+                "CL_-=_-=": "stdClass",
+                "ID": "1",
+                "user_login": "admin@elvira",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "CL_-=_-=": "stdClass",
+            "defines": {
+                "CL_-=_-=": "stdClass",
+                "ABSPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "auvbugf8bgou13ivmwgfoxfayop9gl5wfrow16vejxitiwkgqwkjbhrwlnmjmxtb",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "a9fozuc6yv9g6cp8qnzcytkvuodhbdnnwxl4wma6v7xw9ujrerpzxfq829s64aeo",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "mmm9jdk6jkzgyrh212bszqd40j8kt3v6luac6tmbeffzgng3ynhag2tnr48t3aju",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "bfgluqoffgz6onjxs9eewe5ofvbulklro7s96zze1kf2uczlwgk53bzt3s1hcrpq",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "h1q3isq3nucxh7b1mlaupj7vxif4npn5j1azwezfwrfr5wegkiw7qneaaznpbv0s",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "e0cwjqqjmpvvqyfaxr0ebze1exm1nqxzuoychuh9yoruvo0nxyseqbcoupc7bh7v",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "sxvf6e7tzxcmp7sqf03gw9e6jmby8r7rdipriagj5q7rbqknskq2jxdofv0yjrxs",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "vi1r5fkxf2qmrkwyujxw1sgq12r03fzr3jkeo2nccj3ca4nwtljgpbksb8rn0vjp",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "https:\/\/elvirasite.elvirainfotech.live\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "1G",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/themes\/elvira",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/themes\/elvira",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "CL_-=_-=": "stdClass",
+                "siteUrl": "https:\/\/elvirasite.elvirainfotech.live",
+                "homeUrl": "https:\/\/elvirasite.elvirainfotech.live",
+                "loginUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-login.php",
+                "contentUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content",
+                "uploadBaseUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/elvirasite.elvirainfotech.live\/wp-content\/themes",
+                "originalPaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "abs": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "wpconfig": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "wpcontent": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content",
+                    "uploads": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+                    "plugins": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/plugins",
+                    "muplugins": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "themes": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "abs": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "wpconfig": "\/home\/hguusaov\/elvirasite.elvirainfotech.live",
+                    "wpcontent": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content",
+                    "uploads": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/uploads",
+                    "plugins": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/plugins",
+                    "muplugins": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/mu-plugins",
+                    "themes": "\/home\/hguusaov\/elvirasite.elvirainfotech.live\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields-pro\/acf.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "advanced-custom-fields-pro\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "6.7.0.2",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/wpengine.com\/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "classic-editor\/classic-editor.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.5.24",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "gravityforms\/gravityforms.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "gravityforms\/gravityforms.php",
+                "name": "Gravity Forms",
+                "version": "2.9.23.2",
+                "pluginURI": "https:\/\/gravityforms.com",
+                "author": "Gravity Forms",
+                "authorURI": "https:\/\/gravityforms.com",
+                "description": "Easily create web forms and manage form entries within the WordPress admin.",
+                "title": "Gravity Forms",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "one-click-demo-import\/one-click-demo-import.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "one-click-demo-import\/one-click-demo-import.php",
+                "name": "One Click Demo Import",
+                "version": "3.4.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/one-click-demo-import\/",
+                "author": "OCDI",
+                "authorURI": "https:\/\/ocdi.com",
+                "description": "Import your content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data.",
+                "title": "One Click Demo Import",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "post-duplicator\/m4c-postduplicator.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "post-duplicator\/m4c-postduplicator.php",
+                "name": "Post Duplicator",
+                "version": "3.0.6",
+                "pluginURI": "",
+                "author": "Metaphor Creations",
+                "authorURI": "http:\/\/www.metaphorcreations.com",
+                "description": "Creates functionality to duplicate any and all post types, including taxonomies & custom fields",
+                "title": "Post Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "svg-support\/svg-support.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "svg-support\/svg-support.php",
+                "name": "SVG Support",
+                "version": "2.5.14",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/svg-support\/",
+                "author": "",
+                "authorURI": "https:\/\/benbodhi.com",
+                "description": "Upload SVG files to the Media Library and render SVG files inline for direct styling\/animation of an SVG's internal elements using CSS\/JS.",
+                "title": "SVG Support",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            },
+            "wordfence\/wordfence.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "wordfence\/wordfence.php",
+                "name": "Wordfence Security",
+                "version": "8.1.4",
+                "pluginURI": "https:\/\/www.wordfence.com\/",
+                "author": "Wordfence",
+                "authorURI": "https:\/\/www.wordfence.com\/",
+                "description": "Wordfence Security - Anti-virus, Firewall and Malware Scan",
+                "title": "Wordfence Security",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false,
+                "isInArchive": true
+            }
+        },
+        "themes": {
+            "elvira": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "elvira",
+                "themeName": "Elvira Infotech PVT LTD",
+                "version": "1.0",
+                "themeURI": "",
+                "parentTheme": false,
+                "template": "elvira",
+                "stylesheet": "elvira",
+                "description": "Fully Dynamic WordPress Multisite  Bootstrapped Responsive Theme",
+                "author": "Raihan Reza",
+                "authorURI": "",
+                "tags": [
+                    "Bootstrap",
+                    "Blog",
+                    "ACF",
+                    "Custom Background",
+                    "Multisite",
+                    "Buddypress",
+                    "Custom Colors",
+                    "Custom Logo",
+                    "Custom Menu",
+                    "Featured Images",
+                    "Customized Template"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": 3,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": [
+        "duplicator_pro_ui_view_state",
+        "duplicator_pro_settings"
+    ],
+    "brand": {
+        "name": "Duplicator Professional",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator Pro",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "cpnl-dbaction": {
+            "value": "create"
+        }
+    },
+    "installer_base_name": "",
+    "installer_backup_name": "20260114_elvirainfotechpvtltdprofessionalweb_efe65c4daa9c6fc26788_20260114133500_installer-backup.php",
+    "package_name": "20260114_elvirainfotechpvtltdprofessionalweb_efe65c4daa9c6fc26788_20260114133500_archive.zip",
+    "package_hash": "efe65c4-14133500",
+    "package_notes": "The default template."
+}
